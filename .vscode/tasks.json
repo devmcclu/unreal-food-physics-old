@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FoodPhysics Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win32",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"Win64",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Shipping",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysics HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysics HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysics",
+				"HTML5",
+				"Test",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysicsEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysicsEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FoodPhysicsEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "FoodPhysicsEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FoodPhysicsEditor",
+				"Win64",
+				"Development",
+				"E:\\School Stuff\\Independant Study\\Unreal Project\\FoodPhysics\\FoodPhysics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Games\\Epic Games\\UE_4.22"
+			}
+		}
+	]
+}
